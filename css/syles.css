@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    color: black;
+    
+    font-style: normal;
+    background: url(https://marketplace.canva.com/EAFYxMletq8/1/0/1600w/canva-fondo-de-pantalla-figuras-abstractas-rosa-LIgGZSYmuXE.jpg);
+    background-size: cover;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    
+}
+
+
+h1{
+    font-weight: 400;
+}
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* Estilos para el contenedor interno */
+.inner_container {
+    width: 80%;
+    
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+    backdrop-filter: blur(21px) saturate(164%);
+    -webkit-backdrop-filter: blur(21px) saturate(164%);
+    background-color: rgba(252, 252, 252, 0.31);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+}
+
+/* Estilos para los elementos del contenedor interno */
+.item-1 {
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+.item-2 {
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.item-3 {
+    
+    font-size: 1.5vw;
+    display: flex;
+}
+
+/* Estilos para el título */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Estilos para el selector de usuarios */
+.lista {
+    font-family: "Sriracha", cursive;
+    text-align: center;
+    width: 95%;
+    height: 10vh;
+    color: black;
+    backdrop-filter: blur(16px) saturate(164%);
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* Estilos para el visor de recetas */
+.comment-viewer {
+    
+    width: 95%;
+    height: 35vh;
+    padding: 2vw;
+    display: flex;
+    align-self: center;
+    backdrop-filter: blur(16px) saturate(164%);
+    -webkit-backdrop-filter: blur(16px) saturate(164%);
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
