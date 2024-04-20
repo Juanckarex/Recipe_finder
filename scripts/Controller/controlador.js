@@ -36,12 +36,12 @@ function showRecipesInScreen() {
     console.log(recipes);
 
     let div = document.getElementById("infoDiv");
-    div.innerHTML = recipes.ingredients;
+    divv.innerHTML = recipes.ingredients;
 
     let ingredients = JSON.parse(localStorage.getItem(value))
 
     let divv = document.getElementById("infoDivv");
-    divv.innerHTML = recipes.instructions;
+    div.innerHTML = recipes.instructions;
 }
 
 document.getElementById("usuarios-picker").addEventListener("change",showRecipesInScreen);
